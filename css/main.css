@@ -1,0 +1,138 @@
+
+/* reset parametros */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+/* estilos genericos */
+
+    body{
+        background-color: rgb(235, 235, 235);
+        font-family: 'Armata', sans-serif;
+    }
+
+    header{
+        background-color:#ffffff;
+        margin-bottom: 50px;
+        padding: 25px;
+    }
+    
+    header nav{
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+
+    header nav ul li{
+        display: inline;
+        margin: 0 25px 0 0;
+    }   
+
+    header nav ul li a{
+        text-decoration: none;
+        font-weight:bolder;
+        color: #00b7ae;
+    }   
+
+    .logoTop{
+        position:relative;
+        width: 300px;
+        height: auto;
+    }
+
+    .box{
+        position: relative;  
+    }   
+
+    main h1{
+        color: #00b7ae;
+        text-align: center;
+    }
+
+    footer{
+        background-color: #00b7ae;
+        margin: 50px 0;    
+    }
+
+    .derechos{
+        color: rgba(255, 255, 255, 0.904);
+        font-style: italic;
+    }
+    
+    .logoFoot{
+        width: 300px;
+        height: auto;
+    }
+
+    .redes{
+        background-color: #00b7ae;
+        float:right;
+    }
+
+    .resolucion{
+        width: 30%
+    }
+    
+    .centradoTexto{
+        text-align: center;
+    }
+
+/* estilos de la seccion inicio */
+
+    main ul li{
+        text-align: center; 
+    }
+
+
+/* estilos de la seccion especialidades */
+
+.mainEspecialidades ul li{
+    font-weight: bold;
+    margin: 10px auto;
+    font-size: 2em;
+}
+
+/* estilos de la seccion ciudados */
+
+
+
+/* estilos de la seccion nosotros */
+
+
+
+/* estilos de la seccion contacto */
+
+    form{
+        margin: 20px 50px;
+        text-align: center;
+    }
+
+    form label{
+        display: block;
+        color: #00b7ae;
+                
+    }
+    
+    .contacto{
+        margin: 0 0 18px;
+        padding: 10px 30px;
+        border-color: #00b7ae;
+        border-style:solid;
+    }
+
+    .enviar{
+        background-color: #00b7ae;
+        color: white;
+        border-color: white;
+        font-size: 20px;
+        margin: 20px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+
