@@ -14,95 +14,140 @@
         background-color: rgb(235, 235, 235);
         font-family: 'Armata', sans-serif;
     }
-
-    header{
-        background-color:#ffffff;
-        margin-bottom: 50px;
-        padding: 25px;
-    }
-    
-    header nav{
-        position: absolute;
-        top: 40px;
-        right: 20px;
-    }
-
-    header nav ul li{
-        display: inline;
-        margin: 0 25px 0 0;
-    }   
-
-    header nav ul li a{
-        text-decoration: none;
-        font-weight:bolder;
-        color: #00b7ae;
-    }   
-
-    .logoTop{
-        position:relative;
-        width: 300px;
-        height: auto;
-    }
-
-    .box{
-        position: relative;  
-    }   
-
-    main h1{
-        color: #00b7ae;
-        text-align: center;
-    }
-
+   
     footer{
+        margin-bottom: 0;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         background-color: #00b7ae;
-        margin: 50px 0;    
+        align-items: flex-end;
+            
     }
 
-    .derechos{
+    .footer-container{
+        height: fit-content;
+        width: 100%;
+        padding: 3rem,6rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: center;
+    }
+
+    .footer-container-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-derechos{
         color: rgba(255, 255, 255, 0.904);
         font-style: italic;
     }
     
-    .logoFoot{
+    .footer-logo{
         width: 300px;
         height: auto;
+        padding: 15px;
     }
 
-    .redes{
+    .footer-container-redes{
         background-color: #00b7ae;
-        float:right;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
     }
 
-    .resolucion{
-        width: 30%
+    .footer-redes-img{
+        width: 100%;
+        margin: 10px;
     }
-    
-    .centradoTexto{
+ 
+/* estilos de la seccion inicio */
+
+    .main-container{
         text-align: center;
     }
 
-/* estilos de la seccion inicio */
-
-    main ul li{
-        text-align: center; 
+    .main-container-section{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    .main-img{
+        background-size: contain;
+        width: 30%;
+        height: auto;
+    }
+
+    .main-text-container{
+        background-size: contain;
+        width: 50%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+   
+    @media screen and (min-width:940px){
+
+        .main-container{
+            display: flex;
+            text-align: center;
+        }
+        
+        .main-img{
+            width: 60%;
+        }
+
+
+    } 
 
 /* estilos de la seccion especialidades */
 
-.mainEspecialidades ul li{
-    font-weight: bold;
-    margin: 10px auto;
-    font-size: 2em;
-}
+    .main-container-especialidades{
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        
+    }
+
+
+    @media screen and (min-width:940px){
+
+        .main-container-especialidades{
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .main-container-espeacialidades-section{
+            display: contents;
+            
+        }
+   
+    } 
+
 
 /* estilos de la seccion ciudados */
 
-
+ 
 
 /* estilos de la seccion nosotros */
 
-
+    
 
 /* estilos de la seccion contacto */
 
